@@ -114,62 +114,82 @@ public class Main extends Application {
                         player1Turn = false;
                         playerPosition2 += rand;
 
+
+
+
+
                        if(player2Xpos == 150 && player2Ypos == 570) {
-                            traslatePlayer(player2Xpos = 90, player2Ypos = 390, player2);
+                           traslatePlayer(player2Xpos = 90, player2Ypos = 390, player2);
+                       }
+                       else{
 
 
                         if(player2Xpos == 570 && player2Ypos == 570) {
-                              traslatePlayer(player2Xpos = 500, player2Ypos = 500, player2);
+                            traslatePlayer(player2Xpos = 500, player2Ypos = 500, player2);
+                        }
+
+
+                        else{
+
 
                         if (player2Xpos == 390 && player2Ypos == 450) {
                             traslatePlayer(player2Xpos = 450, player2Ypos = 270, player2);
+                        }
+                        else{
+
 
                             if (player2Xpos == 270 && player2Ypos == 510) {
                                 traslatePlayer(player2Xpos = 450, player2Ypos = 500, player2);
+                            }
+                            else{
+
 
                                 if (player2Xpos == 570 && player2Ypos == 390) {
                                     traslatePlayer(player2Xpos = 210, player2Ypos = 560, player2);
+                                }
+                                else{
 
                                     if (player2Xpos == 390 && player2Ypos == 330) {
                                         traslatePlayer(player2Xpos = 270, player2Ypos = 440, player2);
+                                    }
+                                    else{
+
 
                                         if (player2Xpos == 330 && player2Ypos == 210) {
                                             traslatePlayer(player2Xpos = 510, player2Ypos = 280, player2);
+                                        }
+                                        else{
 
                                            if (player2Xpos == 270 && player2Ypos == 270) {
                                                traslatePlayer(player2Xpos = 210, player2Ypos = 100, player2);
+                                           }
+                                           else{
+
 
                                             if (player2Xpos == 150 && player2Ypos == 210) {
                                                 traslatePlayer(player2Xpos = 30, player2Ypos = 280, player2);
+                                            }
+                                            else{
+
 
                                            if (player2Xpos == 30 && player2Ypos == 210) {
                                                traslatePlayer(player2Xpos = 90, player2Ypos = 40, player2);
+                                           }
+                                           else{
+
+
 
                                            if (player2Xpos == 510 && player2Ypos == 150) {
                                                traslatePlayer(player2Xpos = 570, player2Ypos = 100, player2);
+                                           }
+                                           else {
 
-                                               if (player1Xpos == 210 && player1Ypos == 30) {
-                                                   traslatePlayer(player1Xpos = 330, player1Ypos = 150, player1);
+                                               if (player2Xpos == 210 && player2Ypos == 30) {
+                                                   traslatePlayer(player2Xpos = 330, player2Ypos = 150, player1);
 
                                                }
-                                           }
-                                           }
-                                            }
-                                           }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+                                           }}}}}}}}}}}}}}});
 
-                }
-
-
-                }
-            }
-        });
 
 
 
@@ -190,43 +210,68 @@ public class Main extends Application {
                                             playerPosition1 += rand;
 
 
-                                            if (player1Xpos == 150 && player2Ypos == 570) {
-                                                traslatePlayer(player1Xpos = 90, player1Ypos = 390, player1);
 
+                                            if (player1Xpos == 270 && player1Ypos == 510) {
+                                                traslatePlayer(player1Xpos = 450, player1Ypos = 500, player1);
+                                            }
+
+                                            else{
+
+
+                                            if (player1Xpos == 150 && player1Ypos == 570) {
+                                                traslatePlayer(player1Xpos = 90, player1Ypos = 390, player1);
+                                            }
+                                            else{
 
                                                 if (player1Xpos == 570 && player1Ypos == 570) {
                                                     traslatePlayer(player1Xpos = 500, player1Ypos = 500, player1);
+                                                }
+                                                else{
 
                                                     if (player1Xpos == 390 && player1Ypos == 450) {
                                                         traslatePlayer(player1Xpos = 450, player1Ypos = 270, player1);
 
-                                                        if (player1Xpos == 270 && player1Ypos == 510) {
-                                                            traslatePlayer(player1Xpos = 450, player1Ypos = 500, player1);
-
+                                                    }
+                                                    else{
                                                             if (player1Xpos == 570 && player1Ypos == 390) {
                                                                 traslatePlayer(player1Xpos = 210, player1Ypos = 560, player1);
+                                                            }
+                                                            else{
 
                                                                 if (player1Xpos == 390 && player1Ypos == 330) {
                                                                     traslatePlayer(player1Xpos = 270, player1Ypos = 440, player1);
+                                                                }
+                                                                else{
 
                                                                     if (player1Xpos == 330 && player1Ypos == 210) {
                                                                         traslatePlayer(player1Xpos = 510, player1Ypos = 280, player1);
+                                                                    }
+                                                                    else{
 
                                                                         if (player1Xpos == 270 && player1Ypos == 270) {
                                                                             traslatePlayer(player1Xpos = 210, player1Ypos = 100, player1);
+                                                                        }
+                                                                        else{
 
                                                                             if (player1Xpos == 150 && player1Ypos == 210) {
                                                                                 traslatePlayer(player1Xpos = 30, player1Ypos = 280, player1);
+                                                                            }
+                                                                            else{
 
                                                                                 if (player1Xpos == 30 && player1Ypos == 210) {
                                                                                     traslatePlayer(player1Xpos = 90, player1Ypos = 40, player1);
+                                                                                }
+                                                                                else{
 
                                                                                     if (player1Xpos == 510 && player1Ypos == 150) {
                                                                                         traslatePlayer(player1Xpos = 570, player1Ypos = 100, player1);
+                                                                                    }
+                                                                                    else{
 
                                                                                         if (player1Xpos == 210 && player1Ypos == 30) {
                                                                                             traslatePlayer(player1Xpos = 330, player1Ypos = 150, player1);
                                                                                         }
+
                                                                                     }
                                                                                 }
                                                                             }
@@ -280,7 +325,7 @@ public class Main extends Application {
 
 
          private void getDiceValue(){
-              rand =(int)(Math.random()*1+1);
+              rand =(int)(Math.random()*1+99);
 
          }
 
@@ -289,20 +334,24 @@ public class Main extends Application {
                    if(posCir1 % 2 == 1) {
                        player1Xpos += 60;
                    }
+
                    if(posCir1 % 2 == 0) {
                        player1Xpos-= 60;
                    }
+
                    if(player1Xpos > 570) {
                        player1Ypos -=60;
                        player1Xpos -=60;
                        posCir1++;
                    }
 
+
                    if(player1Xpos < 30) {
                        player1Ypos-=60;
                        player1Xpos+=60;
                        posCir1++;
                    }
+
 
                    if(player1Xpos < 30 || player1Ypos < 30 ){
                        player1Xpos = 30;
@@ -319,20 +368,24 @@ public class Main extends Application {
             if(posCir2 % 2 == 1) {
                 player2Xpos += 60;
             }
+
             if(posCir2 % 2 == 0) {
                 player2Xpos-= 60;
             }
+
             if(player2Xpos > 570) {
                 player2Ypos -=60;
                 player2Xpos -=60;
                 posCir2++;
             }
 
+
             if(player2Xpos < 30) {
                 player2Ypos-=60;
                 player2Xpos+=60;
                 posCir2++;
             }
+
 
             if(player2Xpos < 30 || player2Ypos < 30 ){
                 player2Xpos = 30;
